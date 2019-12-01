@@ -1,4 +1,5 @@
 import React from 'react';
+import HeadNav from '../../conponments/headNav/index';
 
 class index extends React.Component{
    constructor(props){
@@ -6,7 +7,11 @@ class index extends React.Component{
       this.setState = {}
    }
    render(){
-      return <div>index</div>
+      return (
+         <div>
+            <HeadNav></HeadNav>
+         </div>
+      )    
    }
 }
 

@@ -1,0 +1,17 @@
+.header {
+  padding: 20px 0;
+  background-color: #4498ee;
+}
+
+.header .position {
+  padding-left: 30px;
+  font-size: 26px;
+  color: #FFF;
+}
+
+.header input {
+  width: 90%;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 40px;
+}
