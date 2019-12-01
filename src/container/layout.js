@@ -1,5 +1,5 @@
 import React from 'react';
-
+import BottomNav from '../conponments/bottomNav'
 
 class layout extends React.Component {
    constructor(props){
@@ -7,7 +7,9 @@ class layout extends React.Component {
       this.setState = {}
    }
    render() {
-      return <div>{this.props.children}</div>
+      return <div>{this.props.children}
+         <BottomNav></BottomNav>
+      </div>
    }
 
 }

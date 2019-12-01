@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {Switch, Route } from "react-router-dom";
 import Index from '../container/index/index'
 import My from '../container/my/my'
 
