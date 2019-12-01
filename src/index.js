@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'lib-flexible/flexible'
+import 'antd-mobile/dist/antd-mobile.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
